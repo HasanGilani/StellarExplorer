@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Name" />
+
+    <EditText
+        android:id="@+id/edit_text_event_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter event name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Date" />
+
+    <EditText
+        android:id="@+id/edit_text_event_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter event date" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Event Type" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_event_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio_eclipse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eclipse" />
+        <RadioButton
+            android:id="@+id/radio_meteor_shower"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meteor Shower" />
+    </RadioGroup>
+</LinearLayout>

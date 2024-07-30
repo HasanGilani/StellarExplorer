@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_view_celestial_bodies"
+        android:title="View Celestial Bodies"
+        android:icon="@drawable/ic_planet"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_upcoming_events"
+        android:title="Upcoming Events"
+        android:icon="@drawable/ic_event"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_constellations"
+        android:title="Constellations"
+        android:icon="@drawable/ic_constellation"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_add_event"
+        android:title="Add Event"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="ifRoom" />
+</menu>
